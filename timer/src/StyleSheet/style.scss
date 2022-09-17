@@ -1,0 +1,138 @@
+@import 'reset';
+@import 'global';
+body {
+  background-color: rgb(48, 45, 45);
+}
+.timer {
+  text-align: center;
+  font-size: 3rem;
+  word-spacing: 10px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.stop-watch {
+  margin: 2rem auto;
+  width: 25%;
+  border: 2px solid red;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0.7rem;
+  cursor: pointer;
+}
+
+.stop-count {
+  margin: 0 auto;
+  border: 2px solid green;
+  width: 25%;
+  text-align: center;
+  padding: 0.7rem;
+
+  cursor: pointer;
+}
+.as12 {
+  display: none;
+  position: relative;
+}
+
+.as13 {
+  display: none;
+}
+.list {
+  display: flex;
+  justify-content: center;
+}
+.span {
+  position: absolute;
+  right: 0;
+  top: -3rem;
+  font-size: 2rem;
+  font-weight: 900;
+  color: whitesmoke;
+}
+.p {
+  font-size: 1.7rem;
+  margin: 0.8rem 0;
+  color: rgb(202, 181, 181);
+}
+.count-down {
+  position: relative;
+}
+.span2 {
+  position: absolute;
+  right: 0;
+  top: -2.8rem;
+  font-weight: 900;
+  color: white;
+  font-size: 2rem;
+}
+.fa-duotone {
+  color: white;
+}
+.icon-div {
+  //   border: 2px solid blue;
+  width: 65%;
+  margin: 1.2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon-div i {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: white;
+}
+.icon-div2 {
+  width: 52%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.7rem auto;
+  font-size: 3rem;
+  font-weight: 700;
+  color: whitesmoke;
+}
+.icon-div2 span {
+  font-size: 2rem;
+  color: white;
+}
+.resume-div {
+  display: none;
+}
+
+.count-span {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+.all-btn {
+  font-size: 1.4rem;
+  padding: 0.2rem 1rem;
+  border: none;
+  margin: 0 0.66rem;
+  cursor: pointer;
+}
+.start {
+  font-size: 1.4rem;
+  padding: 0.2rem 1rem;
+  border: none;
+}
+.timer {
+  font-size: 2.6rem;
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+.reset-btn-div {
+  display: none;
+}
+
+.count-stop {
+  display: none;
+}
+#stop-watch {
+  display: none;
+}
